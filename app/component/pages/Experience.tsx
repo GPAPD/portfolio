@@ -26,7 +26,7 @@ const Experience = () =>
     return(
         <div className="relative max-w-7xl mx-auto lg:flex flex-wrap scroll-mt-24 justify-center mt-8 md:mt-3 mb-10 mt-20 md:mt-30" id='Experience'>
             
-            <div className=''>
+            <div className='sm:w-[40%] '>
                 <div className='text-3xl font-bold text-center m-5'>
                     <h2>Experience</h2>
                 </div>
@@ -35,29 +35,32 @@ const Experience = () =>
 
                     {experience.map((ex) => (
                         <a href={ex.url} target="_blank" key={ex.id}>
-                            <li className="grid grid-cols-4 gap-4 p-5 border border-transparent hover:border-teal-500 hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg lg:hover:!opacity-100 lg:group-hover/list:opacity-50 rounded-lg transition-all duration-200">
-                                <div className=" uppercase text-sm/7 lg:text-md">
-                                    {ex.Time}
-                                </div>
-                                <div className="col-span-3">
-                                    <div className='z-10 sm:col-span-6'>
-                                        <h3 className='font-medium leading-snug text-slate-200'>{ex.name} . {ex.company}</h3>
+                            <li>
+                                <div className="grid grid-cols-4 gap-4 p-5 border border-transparent hover:border-teal-500 hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg lg:hover:!opacity-100 lg:group-hover/list:opacity-50 rounded-lg transition-all duration-200">
+                                    <div className=" uppercase text-sm/7 lg:text-md">
+                                        {ex.Time}
                                     </div>
-                                    <div>
-                                        <div className="mt-2 text-sm leading-normal">
+                                    <div className="col-span-3">
+
+                                        <h3 className='font-medium leading-snug text-slate-200'>{ex.name} . {ex.company}</h3>
+
+                                        <p className="mt-2 text-sm leading-normal flex flex-wrap">
                                             {ex.description}
-                                        </div>
+                                        </p>
+
                                         <ul className="mt-2 flex flex-wrap">
                                             {ex.tech.map((tech) => ( 
                                                 <li className="mr-1.5 mt-2" key={tech}>
-                                                    <div className="flex item-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                                                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
                                                         {tech}
                                                     </div>
                                                 </li>
                                             ))}
                                         </ul>
+
                                     </div>
                                 </div>
+                                
                             </li>
                         </a>
                     ))}
