@@ -9,9 +9,9 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Link from 'next/link';
 
 const experience = [
-  { id:"1", name: 'Software Engineer', Time:"2024 - Present", company:"SuperJeweler.com", description: 'Get a better understanding of your traffic', tech: ["C#","HTML","CSS","SQL","JS",".NET"], url:"https://www.superjeweler.com" },
-  { id:"2", name: 'Associate Software Engineer',Time:"2023 - 2024", company:"SuperJeweler.com", description: 'Speak directly to your customers', tech: ["C#","HTML","CSS","SQL","JS",".NET"],url:"https://www.superjeweler.com" },
-  { id:"3", name: 'Graphic Designer', Time:"2021 - 2022", company:"SuperJeweler.com", description: 'Your customers’ data will be safe and secure', tech: ["Photoshop","Premiere Pro","Adobe Illustrator"],url:"https://www.superjeweler.com" },
+  { id:"1", name: 'Software Engineer', Time:"2024 - Present", company:"SuperJeweler.com", description: 'Integrated APIs, optimized site performance, upgraded payment systems, implemented new features, and conducted R&D for innovative solutions.', tech: ["C#","HTML","CSS","SQL","JS",".NET"], url:"https://www.superjeweler.com" },
+  { id:"2", name: 'Associate Software Engineer',Time:"2023 - 2024", company:"SuperJeweler.com", description: 'Worked on bug fixing, developed new front-end and back-end features, and improved existing workflows.', tech: ["C#","HTML","CSS","SQL","JS",".NET"],url:"https://www.superjeweler.com" },
+  { id:"3", name: 'Graphic Designer', Time:"2021 - 2022", company:"SuperJeweler.com", description: 'Created and edited product photos and videos, designed banners, and ensured visual content was polished and on-brand.', tech: ["Photoshop","Premiere Pro","Adobe Illustrator"],url:"https://www.superjeweler.com" },
 ]
 
 const certification = [
