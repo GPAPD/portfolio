@@ -42,7 +42,7 @@ export default function Header() {
       <nav aria-label="Global" className="mx-auto flex bg-gray-900 items-center justify-between p-6 lg:px-8 fixed top-0 left-0 w-full shadow-md z-50 ">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <p className="text-2xl lg:text-4xl font-bold">Portfolio</p>
+            <p className="text-2xl lg:text-4xl font-bold">GPAPD</p>
 
           </a>
         </div>
