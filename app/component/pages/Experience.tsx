@@ -15,8 +15,10 @@ const experience = [
 ]
 
 const certification = [
-    {id:"1", name:"Supervised Machine Learning: Regression and Classification", URL: "https://coursera.org/share/99131f782158231082374dbf0c741986",src: "/certification/ml-sf.png"},
-    {id:"2", name:"Introduction to Docker", URL: "https://coursera.org/share/34db5f857ad13e23a740bf0426382d1c",src: "/certification/google-cloud-sf.png"}
+    
+    {id:"1", name:"azure az-900", URL: "https://learn.microsoft.com/en-us/users/akashpraveen-3047/credentials/b586c6cbbc926854?ref=https%3A%2F%2Fwww.linkedin.com%2F",src: "/certification/Azure.png"},
+    {id:"2", name:"Introduction to Docker", URL: "https://coursera.org/share/34db5f857ad13e23a740bf0426382d1c",src: "/certification/google-cloud-sf.png"},
+    {id:"3", name:"Supervised Machine Learning: Regression and Classification", URL: "https://coursera.org/share/99131f782158231082374dbf0c741986",src: "/certification/ml-sf.png"},
 ]
 
 const Experience = () => 
