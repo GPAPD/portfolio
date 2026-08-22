@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Home from './pages/Home'
 import About from './pages/About'
 import Experience from './pages/Experience'
+import Contact from './pages/Contact'
 
 
 
@@ -45,6 +46,7 @@ return (
         <Home/>
         <About/>
         <Experience/>
+        <Contact/>
 
       </div>
     </section>
