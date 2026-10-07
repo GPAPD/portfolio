@@ -38,7 +38,7 @@ export default function Contact() {
 
                             {/* Email */}
                             <a
-                                href="mailto:akashpraveend@gmail.com"
+                                href="mailto:akashprav00@gmail.com"
                                 className="flex items-center gap-4 text-gray-300 hover:text-indigo-400 transition"
                             >
                                 <div className="w-11 h-11 rounded-lg bg-indigo-600/20 flex items-center justify-center">
@@ -49,7 +49,7 @@ export default function Contact() {
 
                                 <div>
                                     <p className="text-sm text-gray-500">Email</p>
-                                    <p>akashpraveend@gmail.com</p>
+                                    <p>akashprav00@gmail.com</p>
                                 </div>
                             </a>
 

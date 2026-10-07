@@ -21,7 +21,7 @@ export default function Home() {
 
         <div className="flex gap-4">
           <a
-            href="/certification/20260820-akash-cv.pdf"
+            href="/certification/Akash-Praveen-cv-10072026.pdf"
             download
             className="inline-block px-6 py-3 bg-indigo-600 rounded-lg hover:bg-indigo-700 font-medium"
           >
@@ -29,7 +29,7 @@ export default function Home() {
           </a>
 
           <a
-            href="/certification/20260820-akash-cv.pdf"
+            href="/certification/Akash-Praveen-cv-10072026.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 py-3 bg-indigo-600 rounded-lg hover:bg-indigo-700 font-medium"
