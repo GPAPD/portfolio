@@ -9,7 +9,7 @@ export default function Footer() {
           
           {/* Logo / Brand */}
           <div className="mb-6 md:mb-0 flex gap-6 justify-center w-full md:w-auto">
-            <p className="text-gray-400 mt-2 sm:justify-center">© 2026 Akash Praveen.</p>
+            <p className="text-gray-400 mt-2 sm:justify-center">© {new Date().getFullYear()} Akash Praveen.</p>
           </div>
 
           {/* Social Icons */}

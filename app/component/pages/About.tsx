@@ -2,10 +2,15 @@
 import { px } from 'motion'
 import { useState } from 'react'
 
+const birthDate = new Date(2000, 7, 27);
+const today = new Date();
+
+let age = today.getFullYear() - birthDate.getFullYear();
+
 const data = (
   <>
     <p>
-      Born in 2000 and currently 26, I work mainly within the .NET ecosystem,
+      Born in 2000 and currently {age}, I work mainly within the .NET ecosystem,
       where I enjoy bringing clarity into complex systems—from API development
       to integrating services like Amazon Pay, to building AI-powered features
       for modern web platforms.
